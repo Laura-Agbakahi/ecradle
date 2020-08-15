@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<title>JAVA Script CBT for multipurpose use</title>
+
+
+</head>
+
+<body>
+<h2>5 Stage 1 QUiz for Kinder 1</h2>
+<h4><b>Instruction:</b>All question carry equal marks. Answer all questions</h4>
+
+<form method="post" name="Q1">
+  <fieldset>
+    <legend>Question One:</legend>
+    <div><p>
+       1. Bob bought 2 banners for family dinner, Mary bought 6 banners, 2 for family dinner and the rest for later. How many bananas are there for family dinner all together?
+    <br>
+      <input type="radio" id="option1" name="Q1" value="4">
+      <label for="contactChoice1">4 Banana for family dinner</label>
+        <br>
+        <input type="radio" id="option2" name="Q1" value="8">
+      <label for="contactChoice1">8 Banana for family dinner</label>
+        <br>
+        <input type="radio" id="option3" name="Q1" value="10">
+      <label for="contactChoice1">10 Banana for family dinner</label>
+        <br>
+        <input type="radio" id="option4" name="Q1" value="6">
+      <label for="contactChoice1">6 Banana for family dinner</label>
+        
+    </div>
+    <div>
+    </div>
+    </fieldset>
+    <br>
+<fieldset>
+    <legend>Question Two:</legend>
+    <div><p>
+  2. 3-1 =____. 
+    <br>
+      <input type="radio" id="option5" name="Q2" value="2">
+      <label for="contactChoice1">2</label>
+        <br>
+        <input type="radio" id="option6" name="Q2" value="3">
+      <label for="contactChoice1">3r</label>
+        <br>
+        <input type="radio" id="option7" name="Q2" value="0">
+      <label for="contactChoice1">0</label>
+        <br>
+        <input type="radio" id="option8" name="Q2" value="13">
+      <label for="contactChoice1">13</label>
+        
+    </div>
+  </fieldset>
+</form>
+
+<fieldset>
+    <legend>Question Three:</legend>
+    <div><p>
+   3. Identify the sound that A makes?. 
+    <br>
+      <input type="radio" id="option9" name="Q3" value="Goodigoodigundrops">
+      <label for="contactChoice1">Goodigoodigundrops</label>
+        <br>
+        <input type="radio" id="option10" name="Q3" value="Aoooooooooooh">
+      <label for="contactChoice1">Aoooooooooooh</label>
+        <br>
+        <input type="radio" id="option11" name="Q3" value="Potatoes potatoes">
+      <label for="contactChoice1">Potatoes potatoes</label>
+        <br>
+        <input type="radio" id="option12" name="Q3" value="Ah">
+      <label for="contactChoice1">Ah</label>
+        
+    </div>
+  </fieldset>
+</form>
+
+<fieldset>
+    <legend>Question Four:</legend>
+    <div><p>
+   4.  An apple is a __________. 
+    <br>
+      <input type="radio" id="option13" name="Q4" value="game">
+      <label for="contactChoice1">game</label>
+        <br>
+        <input type="radio" id="option14" name="Q4" value="fruit">
+      <label for="contactChoice1">fruit</label>
+        <br>
+        <input type="radio" id="option15" name="Q4" value="toy">
+      <label for="contactChoice1">toy</label>
+        <br>
+        <input type="radio" id="option16" name="Q4" value="animal">
+      <label for="contactChoice1">animal</label>
+        
+    </div>
+  </fieldset>
+</form>
+
+<fieldset>
+    <legend>Question Five:</legend>
+    <div><p>
+  5.  What is the first letter of the word RED?. 
+    <br>
+      <input type="radio" id="option17" name="Q5" value="F">
+      <label for="contactChoice1">F</label>
+        <br>
+        <input type="radio" id="option18" name="Q5" value="R">
+      <label for="contactChoice1">R</label>
+        <br>
+        <input type="radio" id="option19" name="Q5" value="D">
+      <label for="contactChoice1">Dr</label>
+        <br>
+        <input type="radio" id="option20" name="Q5" value="B">
+      <label for="contactChoice1">Br</label>
+        
+    </div>
+    <div>
+  <button type="submit" onclick="SubmitAll()">FINISH</button>
+    </div>
+  </fieldset>
+</form>
+
+
+</body>
+</html>
+
+<script type="text/javascript">
+function SubmitAll()
+{
+    var tscore = 0;
+    var o1=document.getElementById("option1");
+    var o2=document.getElementById("option5");	
+    var o3=document.getElementById("option12");	
+    var o4=document.getElementById("option14");	
+    var o5=document.getElementById("option18");	
+    
+    
+        if(o1.checked==true){
+        tscore = tscore + 2;
+        }
+        if (o2.checked==true){
+        tscore = tscore + 2;
+        }
+       if (o3.checked==true){
+        tscore = tscore + 2;
+        }
+      if (o4.checked==true){
+        tscore = tscore + 2;
+        }
+      if (o5.checked==true){
+        tscore = tscore + 2;
+        }
+    alert("Thank you for attempting, your totals score is: "+tscore);
+}
+</script>
+    
+
+</div>
+</body>
+</html>
